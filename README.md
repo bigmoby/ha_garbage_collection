@@ -57,8 +57,8 @@ input_datetime:
     has_date: false
     has_time: true
     initial: "08:00"
-    
-## serve per far comparire/scomparire il menù scelta giorni in lovelace
+
+#serve per far comparire/scomparire il menù scelta giorni in lovelace
 input_boolean:
   differenziata_settings_hp:
   giorni_settings_hp:
