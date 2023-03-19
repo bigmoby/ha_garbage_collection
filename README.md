@@ -49,9 +49,9 @@ Project from: https://hassiohelp.eu/2019/03/17/raccolta-differenziata/
       <<: *customize
     "script.*_hp":
       <<: *customize
-```
+  ```
 
-```
+  ```
 input_datetime:
   orario_avviso_differenziata_hp:
     name: Orario avviso raccolta differenziata
