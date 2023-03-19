@@ -1,4 +1,5 @@
 # ha_garbage_collection
+
 Project from: https://hassiohelp.eu/2019/03/17/raccolta-differenziata/
 
 - Add `python_script:` into configuration.yaml
@@ -163,3 +164,4 @@ notifica_raccolta_hp:
       entity_alexa_tts: '{{states(''input_text.entity_alexa_tts_hp'') }}'
       entity_script_tts: '{{ states(''input_text.entity_script_tts_hp'') }}'    
   ```
+
