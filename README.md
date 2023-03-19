@@ -57,9 +57,7 @@ input_datetime:
     has_date: false
     has_time: true
     initial: "08:00"
-```
-```
-#serve per far comparire/scomparire il menù scelta giorni in lovelace
+
 input_boolean:
   differenziata_settings_hp:
   giorni_settings_hp:
@@ -104,8 +102,6 @@ input_text:
     initial: 'speech'
     name: 'script.'    
 
-```
-```
 automation:
 - alias: Sincronizzo Raccolta hp
   initial_state: 'on'
@@ -165,5 +161,5 @@ notifica_raccolta_hp:
       entity_google_tts: '{{ states(''input_text.entity_google_tts_hp'') }}'
       entity_alexa_tts: '{{states(''input_text.entity_alexa_tts_hp'') }}'
       entity_script_tts: '{{ states(''input_text.entity_script_tts_hp'') }}'    
-  ```
 
+```
