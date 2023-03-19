@@ -57,7 +57,8 @@ input_datetime:
     has_date: false
     has_time: true
     initial: "08:00"
-
+```
+```
 #serve per far comparire/scomparire il menù scelta giorni in lovelace
 input_boolean:
   differenziata_settings_hp:
@@ -103,6 +104,8 @@ input_text:
     initial: 'speech'
     name: 'script.'    
 
+```
+```
 automation:
 - alias: Sincronizzo Raccolta hp
   initial_state: 'on'
@@ -129,7 +132,6 @@ automation:
   action:
   - service: script.notifica_raccolta_hp
   id: 58ebb2e666954ed6a046698140a513ad
-
 
 - id: '1661111772253'
   alias: Sincronizza rifiuti
